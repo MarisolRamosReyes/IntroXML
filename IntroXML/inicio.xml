@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE coppel>
+<establecimiento>
+    <pedidos>
+        <pedido id="1">
+            <contenido>
+                <item referencia="Refrigerador">
+                    <cantidad>1</cantidad>
+                    <precio_unidad moneda="MXN">9599</precio_unidad>
+                    <descripcion>11 pies cúbicos de capacidad</descripcion>
+                    <oferta>Si</oferta>
+                    <color>Gris</color>
+                </item>
+                <item referencia="Lavadora">
+                    <cantidad>1</cantidad>
+                    <precio_unidad moneda="MXN">9899</precio_unidad>
+                    <descripcion>siete ciclos automáticos de lavado</descripcion>
+                    <oferta>Si</oferta>
+                    <color>Blanca</color>
+                </item>
+            </contenido>
+            <envio>
+                <destinatario>Marisol Ramos</destinatario>
+                <direccion>
+                    <nombre tipo="Calle">Matamoros</nombre>
+                    <numero>351</numero>
+                    <cp>25870</cp>
+                    <localidad>Castaños</localidad>
+                </direccion>
+                <forma_de_pago>PayPal</forma_de_pago>
+                <tipo_de_envio>Urgente</tipo_de_envio>
+                <observaciones>fragil</observaciones>
+            </envio>
+            <precio>
+                <base moneda="MXN">4217</base>
+                <iva tipo="16%">674.72</iva>
+                <total moneda="MXN">4,891.72</total>
+                <envio moneda="MXN">0</envio>
+            </precio>
+        </pedido>
+    </pedidos>
+</establecimiento>
